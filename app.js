@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); // importing express framework
 const app = express();
 app.use(express.json()); // Parse JSON bodies
 
