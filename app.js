@@ -1,4 +1,6 @@
-const express = require('express'); // importing express framework
+const express = require('express');
+const logRequest = require("./loggers");
+app.use(logRequest)
 const app = express();
 app.use(express.json()); // Parse JSON bodies
 
