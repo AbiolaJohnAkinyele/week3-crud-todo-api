@@ -11,4 +11,4 @@ const validateTodo = (req, res, next) =>{
     next();
 }
 
-module.exports =  validateTodo
+module.exports =  validateTodo;
